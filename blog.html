@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Icons From Provided Link-->
+    <script src="https://kit.fontawesome.com/b6e508f032.js"></script>
+
+</head>
+<body>
+    <section id="header">
+        <!--Create a link to #-->
+        <a href="#">
+            <img src="img/logo1.png" class="logo" alt="">
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <!--Active Class highlight the current active page-->
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!--lg-bag for removing cart icon from navbar in mobile view-->
+                <li><a id="lg-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <!--Navbar Mobile View-->
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+    
+    <section id="Page-header" class="blog-header">
+        <h2>#ReadMore</h2>
+        <p>Read all case studies about our products!</p>
+    </section>
+
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/b1.jpg">
+            </div>
+            <div class="blog-details ">
+                <h4>Choker Trend The Right Way In 2022 – Outfits & Ideas</h4>
+                <p>Hoodies often include a muff sewn onto the lower front, and (usually) a drawstring to adjust the hood opening. It covers most of the head and neck and sometimes the face.</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>09/01/2022</h1>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog2.jpg">
+            </div>
+            <div class="blog-details ">
+                <h4>How To Wear A Black Dress</h4>
+                <p>Is there anything more stylish than the perfect black dress? Black doesn’t have to be boring, and there are plenty of ways to express yourself whilst wearing this most fashionable shade.</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>13/02/2022</h1>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog3.jpg">
+            </div>
+            <div class="blog-details ">
+                <h4>The Best Spring Outfits This Season</h4>
+                <p>One of the few items in our wardrobe able to transition from office to gym to cocktails, today’s leggings are available in a plethora of styles and colors.</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>23/03/2022</h1>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog4.jpg">
+            </div>
+            <div class="blog-details ">
+                <h4>Stay Warm And Look Cute And Stylish</h4>
+                <p>If you think it’s hard to dress cute in winter, you’re not the only one. But winter style doesn’t have to mean dressing like a marshmallow. With a few winter fashion tips, it’s easy to look stylish and stay warm at the same time.</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>18/04/2022</h1>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/blog5.jpg">
+            </div>
+            <div class="blog-details ">
+                <h4>What To Wear – Grey Coat Outfits</h4>
+                <p>This winter embrace 50 shades of grey. Treat yourself to a new coat but step outside of the box and opt for a sleek grey color. The right grey coat can give any outfit a Parisian twist and instantly turn your look from plain to effortlessly chic.</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>22/05/2022</h1>
+        </div>
+    </section>
+
+
+    <!--Next page buttons-->
+    <section id="pagination" class="section-p1">
+       <a href="#">1</a>
+       <a href="#">2</a> 
+       <a href="#"><i class="fa-solid fa-arrow-right"></i></a> 
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstest">
+            <h4>Sign Up For News Letters</h4>
+            <p>Get e-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your e-mail address">
+            <button class="normal">Sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo1.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> House no.1086, Street 1, E11/4, Islamabad</p>
+            <p><strong>Phone: </strong> (+92) 300 7862212 / (+92) 343 7862244</p>
+            <p><strong>Hours: </strong> 09:00 - 18:00 , Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Product Privacy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Apple store or Google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <div class="row">
+                <a href="#">Secured Payment gateways</a>
+            </div>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>2021 copyright reserved - HTML CSS ECommerce Website Template</p>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
